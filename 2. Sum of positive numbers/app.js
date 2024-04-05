@@ -19,12 +19,45 @@ Note: if there is nothing to sum, the sum is default to 0.
 // console.log(positiveSum([1,-4,7,12]))
 
 
+// Solution Method_1 [using reduce]:
+// function positiveSum(numbers) {
+//     return numbers.reduce((acc, ele) =>  ele > 0? acc + ele : acc, 0)
+// }
+// console.log(positiveSum([10, -20, 1]))
+
+
+// Solution Method_2 [using filter, reduce]:
+/*
+function positiveSum(numbers) {
+    return numbers.filter(ele => ele > 0).reduce((acc, a) => acc + a)
+}
+console.log(positiveSum([10, -20, 1]))
+*/
+
+
+// Solution Method_3 [using for-of loop]:
+function positiveSum(numbers) {
+    let sum = 0;
+    for(let i of numbers) {
+        if(i > 0) {
+            sum += i
+        } else {
+            continue
+        }
+    }
+    return sum
+}
+console.log(positiveSum([10, -20, 1]))
+
+
+
 
 //Method 2:
-function positiveSum(arr){
-    arr.filter((x) => x > 0)                               // [1, 7, 12]
-    .reduce((acc,current) => acc + current, 0)             // acc = initial value [0], current = the first item of the array [1]   ->   1 + 7 + 12
-}
-console.log(positiveSum([1,-4,7,12]))
+
+// function positiveSum(arr){
+//     arr.filter((x) => x > 0)                               // [1, 7, 12]
+//     .reduce((acc,current) => acc + current, 0)             // acc = initial value [0], current = the first item of the array [1]   ->   1 + 7 + 12
+// }
+// console.log(positiveSum([1,-4,7,12]))
 
 
