@@ -3,9 +3,8 @@
 
 // Solution:
 function digitize(number) {
-    // Convert the number to array of characters
+    // Convert the number to an array of characters
     let digitArray = number.toString().split('');
-
     // Convert each character to a number then Reverse the array and return it
     return digitArray.map(str => Number(str)).reverse();
 }
