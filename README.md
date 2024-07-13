@@ -28,8 +28,8 @@ This repository is your one-stop shop for honing your JavaScript problem-solving
 | # | Challenge Title | Challenge Preview [Codewars] | Solution Preview [GitHub] |
 |---|---|---|---|
 | 1 | Even or Odd | <a href="https://www.codewars.com/kata/53da3dbb4a5168369a0000fe" title="Preview the Codewars Challenge">Challenge <img src="https://github.com/Ahmed-Maher77/Kasper_Template/assets/112467034/bded4679-40d0-4053-98d6-e313fc1b6e43" width="10" height="10"></a> | <a href="https://github.com/Ahmed-Maher77/JavaScript-Problem-Solving-Codewars/blob/main/%5B1%5Deven-or-odd.js" title="Even or Odd">Solution <img src="https://github.com/Ahmed-Maher77/Kasper_Template/assets/112467034/bded4679-40d0-4053-98d6-e313fc1b6e43" width="10" height="10"></a> |
-
+|---|---|---|---|
 | 2 | Sum of Positive | <a href="https://www.codewars.com/kata/5715eaedb436cf5606000381" title="Preview the Challenge on Codewars">Challenge <img src="https://github.com/Ahmed-Maher77/Kasper_Template/assets/112467034/bded4679-40d0-4053-98d6-e313fc1b6e43" width="10" height="10"></a> | <a href="https://github.com/Ahmed-Maher77/JavaScript-Problem-Solving-Codewars/blob/main/%5B2%5Dsum-of-positive.js" title="Sum of Positive">Solution <img src="https://github.com/Ahmed-Maher77/Kasper_Template/assets/112467034/bded4679-40d0-4053-98d6-e313fc1b6e43" width="10" height="10"></a> |
-
+|---|---|---|---|
 | [Number] | [Name] | <a href="[kata_Link]" title="Preview the Challenge on Codewars">Challenge <img src="https://github.com/Ahmed-Maher77/Kasper_Template/assets/112467034/bded4679-40d0-4053-98d6-e313fc1b6e43" width="10" height="10"></a> | <a href="[solution_Link]" title="[Name]">Solution <img src="https://github.com/Ahmed-Maher77/Kasper_Template/assets/112467034/bded4679-40d0-4053-98d6-e313fc1b6e43" width="10" height="10"></a> |
 |---|---|---|---|
