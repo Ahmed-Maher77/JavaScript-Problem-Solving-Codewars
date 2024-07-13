@@ -1,6 +1,6 @@
 /* 
 # Challenge:
--- You get an array of numbers, return the sum of all of the positives ones
+-- You get an array of numbers, return the sum of all of the positive ones
 -- Example [1,-4,7,12] => 1 + 7 + 12 = 20
 -- Note: if there is nothing to sum, the sum is default to 0
 */
@@ -14,17 +14,14 @@ function positiveSum(arr) {
 
 
 // Solution Method_2 (using filter and reduce):            
-/*
 function positiveSum(numbers) {
     let positiveNums = numbers.filter(num => num > 0);
     let sum = positiveNums.reduce((acc, num) => acc + num, 0)
     return sum 
 }
-*/
 
 
 // // Solution Method_3 (using for...of loop):             
-/*
 function positiveSum(arr) {
     let sum = 0;
     for (let num of arr) {
@@ -32,7 +29,6 @@ function positiveSum(arr) {
     }
     return sum
 }
-*/
 
 
 
