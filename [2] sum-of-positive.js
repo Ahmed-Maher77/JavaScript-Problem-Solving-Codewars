@@ -6,31 +6,34 @@
 */
 
 
-// Solution Method_1 (using reduce only):
+
+// Solution Method_1 (using reduce only):               
 function positiveSum(arr) {
     return arr.reduce((sum, num) => num > 0? num + sum : sum, 0);
 }
 
 
-// Solution Method_2 (using filter and reduce):
+// Solution Method_2 (using filter and reduce):            
 /*
-function positiveSum(arr) {
-    return arr.filter(num => num > 0).reduce((sum, num) => sum + num, 0);
+function positiveSum(numbers) {
+    let positiveNums = numbers.filter(num => num > 0);
+    let sum = positiveNums.reduce((acc, num) => acc + num, 0)
+    return sum 
 }
 */
 
 
-// Solution Method_3 (using for...of loop):
+// // Solution Method_3 (using for...of loop):             
 /*
 function positiveSum(arr) {
     let sum = 0;
     for (let num of arr) {
-        if (num > 0)
-            sum += num
+        num > 0? sum += num : null
     }
     return sum
 }
 */
+
 
 
 // Test Cases
