@@ -4,24 +4,24 @@ This repository is your one-stop shop for honing your JavaScript problem-solving
 - Master JavaScript fundamentals and concepts.
 - Practice diverse problem-solving approaches.
 - Test and improve your coding efficiency.
-<p>________________________________________________________________________</p>     
+<p>__________________________________</p>     
 
 ### ❔ What's inside?
 - Solutions to Codewars Katas
 - Well-commented code for better understanding
-<p>________________________________________________________________________</p>
+<p>__________________________________</p>     
 
 ### 🚩 Who is this for?
 **JavaScript developers** of all levels, especially those looking to:
 - Sharpen their problem-solving skills.
 - Prepare for technical interviews.
 - Deepen their understanding of JavaScript.
-<p>________________________________________________________________________</p>
+<p>__________________________________</p>     
 
 ### ▶ Feel free to:
 - Use these solutions as a starting point for your own code.
 - Share these solutions with others.
-<p>________________________________________________________________________</p>
+<p>__________________________________</p>     
 
 ### ✅ This table includes problems/challenges with their solutions: 
 
