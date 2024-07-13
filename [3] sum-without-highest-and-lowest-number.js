@@ -72,7 +72,7 @@ function sumArray(array) {
 
 
 // Test Cases
-console.log(sumArray([6, 2]));              // Output: 16
+console.log(sumArray([6, 2]));              // Output: 0
 console.log(sumArray([6, 2, 1, 8, 10]));    // Output: 16
 console.log(sumArray([1, 1, 11, 2, 3]));    // Output: 6
 console.log(sumArray([3, 7, 5, 2, 9]));     // Output: 15
