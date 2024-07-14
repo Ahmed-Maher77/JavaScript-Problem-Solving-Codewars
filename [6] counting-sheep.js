@@ -11,8 +11,7 @@ function countSheeps(sheep) {
     return sheep.reduce((acc, ele) => ele === true? acc+1 : acc, 0);
 }
 
-
-// Solution Method_2 [using for-loop]:
+// Solution Method_3 [using for-loop]:
 function countSheeps(sheep) {
     let counter = 0;
     for (let i of sheep) {
